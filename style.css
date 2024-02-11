@@ -143,11 +143,4 @@
         padding-bottom: 30px;
         color: darkgray;
     }
-    .box1, .box2 {
-        max-width: 600px; 
-    }
-    .container {
-        padding-left: 10px; 
-        padding-right: 10px; 
-    }
 }
