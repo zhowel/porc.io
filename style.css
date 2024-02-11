@@ -1,0 +1,100 @@
+.dropbtn {
+    background-color: white;
+    color: black;
+    padding: 16px;
+    font-size: 32px;
+    font-weight: bold;
+    border: none;
+    text-transform: uppercase; 
+    font-family: 'IM Fell DW Pica SC', serif;
+    width: 600px;
+    height: 120px;
+    border-top: 2px solid black; 
+    border-bottom: 2px solid black;
+    letter-spacing: 3px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    text-align: center; 
+    left: 50%; 
+    transform: translateX(-50%);
+    font-family: 'IM Fell DW Pica SC', serif;
+    width: 600px; 
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: hsl(0, 0%, 81%);
+}
+.row{
+    background-color: black;
+}
+.container{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container{
+    align-content: center;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+.box1{
+    text-align: left;
+    max-width: 600px;
+    max-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box2{
+    max-width: 600px;
+    max-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.name,.price{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    float: left;
+    width: 50%;
+    padding-top: 20px;
+} 
+.description,.units{
+    font-size: 20px;
+    font-style: italic; 
+    font-family: 'Lobster', cursive;
+    float: left;
+    width: 50%;
+    border-bottom: 2px solid black; 
+    padding-bottom: 30px;
+    color: darkgray;
+}
+
+
+ 
