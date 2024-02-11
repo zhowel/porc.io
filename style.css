@@ -103,9 +103,6 @@
     padding-left: 10px; 
     padding-right: 10px; 
 }
-.name, .price, .product, .description {
-    font-size: 1em; 
-}
 
 @media only screen and (max-width: 600px){
     .row{
@@ -159,8 +156,5 @@
     .container {
         padding-left: 10px; 
         padding-right: 10px; 
-    }
-    .name, .price, .product, .description {
-        font-size: 0.8em; 
     }
 }
