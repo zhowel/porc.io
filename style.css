@@ -153,4 +153,8 @@
     .box1, .box2 {
         max-width: 600px; 
     }
+    .container {
+        padding-left: 10px; /* Добавляем отступ слева */
+        padding-right: 10px; /* Добавляем отступ справа */
+    }
 }
